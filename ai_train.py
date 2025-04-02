@@ -49,8 +49,7 @@ def main(
             time.sleep(sleep)
 
             # kick-off evaluation
-            if train_step % 10 == 0:
-                print("Mesa gonna eval")
+            if train_step % 5 == 0:
                 print("eval_step:", eval_step)
                 eval_path = pathlib.Path(__file__).parent / "ai_eval.py"
                 subprocess.run(
@@ -61,8 +60,6 @@ def main(
                         run.id,
                         "--eval_step",
                         str(eval_step),
-                        "--num_steps",
-                        "1",  # Just log one step per evaluation
                     ],
                     # reset WANDB_SERVICE so that it spins its own wandb-core
                     # this is done to mimic a multi-node scenario.
