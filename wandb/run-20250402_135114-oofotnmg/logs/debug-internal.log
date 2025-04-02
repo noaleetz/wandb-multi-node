@@ -1,0 +1,17 @@
+{"time":"2025-04-02T13:51:14.897629-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/Users/noaschwartz_wandb/multi-node/wandb/run-20250402_135114-oofotnmg/logs/debug-core.log"}
+{"time":"2025-04-02T13:51:15.094072-07:00","level":"INFO","msg":"created new stream","id":"oofotnmg"}
+{"time":"2025-04-02T13:51:15.094121-07:00","level":"INFO","msg":"stream: started","id":"oofotnmg"}
+{"time":"2025-04-02T13:51:15.094145-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"oofotnmg"}
+{"time":"2025-04-02T13:51:15.094366-07:00","level":"INFO","msg":"sender: started","stream_id":"oofotnmg"}
+{"time":"2025-04-02T13:51:15.094412-07:00","level":"INFO","msg":"handler: started","stream_id":"oofotnmg"}
+{"time":"2025-04-02T13:51:15.22662-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-02T13:51:15.227882-07:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-04-02T13:51:36.197609-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/noa-distributed/oofotnmg/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}
+{"time":"2025-04-02T13:51:45.985789-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/noa-distributed/oofotnmg/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}
+{"time":"2025-04-02T13:51:55.158591-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-02T13:51:55.158767-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-02T13:51:55.653001-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-02T13:51:56.168992-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-9, console lines 0-3","runtime_seconds":25.601073209,"error_status":"retrying HTTP 503: The service is currently unavailable. Please try again later."}],"total_operations":1}}
+{"time":"2025-04-02T13:51:57.61662-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/noa-distributed/oofotnmg/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}
+{"time":"2025-04-02T13:52:01.180856-07:00","level":"INFO","msg":"stream: closing","id":"oofotnmg"}
+{"time":"2025-04-02T13:52:01.181293-07:00","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}

@@ -1,0 +1,24 @@
+{"time":"2025-04-02T13:38:27.107444-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/Users/noaschwartz_wandb/multi-node/wandb/run-20250402_133827-i28uv487/logs/debug-core.log"}
+{"time":"2025-04-02T13:38:27.643113-07:00","level":"INFO","msg":"created new stream","id":"i28uv487"}
+{"time":"2025-04-02T13:38:27.643177-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"i28uv487"}
+{"time":"2025-04-02T13:38:27.643229-07:00","level":"INFO","msg":"stream: started","id":"i28uv487"}
+{"time":"2025-04-02T13:38:27.64326-07:00","level":"INFO","msg":"handler: started","stream_id":"i28uv487"}
+{"time":"2025-04-02T13:38:27.643274-07:00","level":"INFO","msg":"sender: started","stream_id":"i28uv487"}
+{"time":"2025-04-02T13:38:27.784792-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-02T13:38:27.785166-07:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-04-02T13:39:19.216479-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-02T13:39:19.216655-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-02T13:39:20.220142-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-9, console lines 0-3","runtime_seconds":37.122216125},{"desc":"updating run config","runtime_seconds":22.157000917}],"total_operations":2}}
+{"time":"2025-04-02T13:39:28.063807-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-02T13:39:34.4657-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-02T13:39:38.186812-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/noa-distributed/i28uv487/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-04-02T13:39:43.273808-07:00","level":"INFO","msg":"stream: closing","id":"i28uv487"}
+{"time":"2025-04-02T13:39:43.273882-07:00","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}
+{"time":"2025-04-02T13:39:44.728803-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/noa-distributed/i28uv487/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}
+{"time":"2025-04-02T13:39:56.525835-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/noa-distributed/i28uv487/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}
+{"time":"2025-04-02T13:40:11.503968-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/noa-distributed/i28uv487/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}
+{"time":"2025-04-02T13:41:23.75967-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/noa-distributed/i28uv487/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-04-02T13:42:02.08615-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/noa-distributed/i28uv487/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}
+{"time":"2025-04-02T13:43:57.348387-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/noa-distributed/i28uv487/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-04-02T13:45:52.548335-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/noa-distributed/i28uv487/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-04-02T13:49:17.360892-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/noa-distributed/i28uv487/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}

@@ -1,0 +1,46 @@
+{
+  "os":  "macOS-15.3.2-arm64-arm-64bit",
+  "python":  "CPython 3.9.7",
+  "startedAt":  "2025-04-02T20:57:58.670493Z",
+  "args":  [
+    "--sleep",
+    "1",
+    "--project",
+    "noa-distributed"
+  ],
+  "program":  "/Users/noaschwartz_wandb/multi-node/ai_train.py",
+  "codePath":  "ai_train.py",
+  "email":  "noa.schwartz@wandb.com",
+  "root":  "/Users/noaschwartz_wandb/multi-node",
+  "host":  "Noa-Schwartz-W77L64159P.local",
+  "executable":  "/Users/noaschwartz_wandb/.pyenv/versions/3.9.7/envs/weave/bin/python",
+  "codePathLocal":  "ai_train.py",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "132324978688"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "494384795648",
+      "used":  "132324978688"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  },
+  "apple":  {
+    "name":  "Apple M1 Pro",
+    "ecpuCores":  2,
+    "pcpuCores":  6,
+    "gpuCores":  14,
+    "memoryGb":  16,
+    "swapTotalBytes":  "4294967296",
+    "ramTotalBytes":  "17179869184"
+  }
+}

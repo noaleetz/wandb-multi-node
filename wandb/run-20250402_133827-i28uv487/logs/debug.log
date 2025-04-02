@@ -1,0 +1,27 @@
+2025-04-02 13:38:27,080 INFO    MainThread:96580 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-02 13:38:27,080 INFO    MainThread:96580 [wandb_setup.py:_flush():67] Configure stats pid to 96580
+2025-04-02 13:38:27,080 INFO    MainThread:96580 [wandb_setup.py:_flush():67] Loading settings from /Users/noaschwartz_wandb/.config/wandb/settings
+2025-04-02 13:38:27,080 INFO    MainThread:96580 [wandb_setup.py:_flush():67] Loading settings from /Users/noaschwartz_wandb/multi-node/wandb/settings
+2025-04-02 13:38:27,080 INFO    MainThread:96580 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-02 13:38:27,080 INFO    MainThread:96580 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /Users/noaschwartz_wandb/multi-node/wandb/run-20250402_133827-i28uv487/logs/debug.log
+2025-04-02 13:38:27,080 INFO    MainThread:96580 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /Users/noaschwartz_wandb/multi-node/wandb/run-20250402_133827-i28uv487/logs/debug-internal.log
+2025-04-02 13:38:27,080 INFO    MainThread:96580 [wandb_init.py:init():781] calling init triggers
+2025-04-02 13:38:27,080 INFO    MainThread:96580 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'_wandb': {'code_path': 'code/ai_train.py'}}
+2025-04-02 13:38:27,080 INFO    MainThread:96580 [wandb_init.py:init():809] starting backend
+2025-04-02 13:38:27,080 INFO    MainThread:96580 [wandb_init.py:init():813] sending inform_init request
+2025-04-02 13:38:27,105 INFO    MainThread:96580 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-04-02 13:38:27,105 INFO    MainThread:96580 [wandb_init.py:init():823] backend started and connected
+2025-04-02 13:38:27,107 INFO    MainThread:96580 [wandb_init.py:init():915] updated telemetry
+2025-04-02 13:38:27,108 INFO    MainThread:96580 [wandb_init.py:init():939] communicating run to backend with 60.0 second timeout
+2025-04-02 13:38:27,783 INFO    MainThread:96580 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-02 13:38:27,909 INFO    MainThread:96580 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-02 13:38:27,909 INFO    MainThread:96580 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-02 13:38:27,909 INFO    MainThread:96580 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-02 13:38:27,909 INFO    MainThread:96580 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-02 13:38:27,911 INFO    MainThread:96580 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-02 13:39:19,214 INFO    MainThread:96580 [wandb_run.py:_finish():2189] finishing run noa-schwartz-wandb/noa-distributed/i28uv487
+2025-04-02 13:39:19,215 INFO    MainThread:96580 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 0
+2025-04-02 13:39:19,215 INFO    MainThread:96580 [wandb_run.py:_restore():2401] restore
+2025-04-02 13:39:19,215 INFO    MainThread:96580 [wandb_run.py:_restore():2407] restore done
+2025-04-02 13:39:43,272 INFO    MsgRouterThr:96580 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 2 handles.

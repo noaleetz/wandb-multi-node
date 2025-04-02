@@ -1,0 +1,21 @@
+{"time":"2025-04-02T13:58:10.55221-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/Users/noaschwartz_wandb/multi-node/wandb/run-20250402_135810-jx6bv8sv/logs/debug-core.log"}
+{"time":"2025-04-02T13:58:10.741105-07:00","level":"INFO","msg":"created new stream","id":"jx6bv8sv"}
+{"time":"2025-04-02T13:58:10.741155-07:00","level":"INFO","msg":"stream: started","id":"jx6bv8sv"}
+{"time":"2025-04-02T13:58:10.741158-07:00","level":"INFO","msg":"handler: started","stream_id":"jx6bv8sv"}
+{"time":"2025-04-02T13:58:10.74117-07:00","level":"INFO","msg":"sender: started","stream_id":"jx6bv8sv"}
+{"time":"2025-04-02T13:58:10.74118-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"jx6bv8sv"}
+{"time":"2025-04-02T13:58:10.859672-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-02T13:58:11.976689-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-02T13:58:12.475172-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-02T13:58:12.844779-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-02T13:58:12.984609-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-0, summary, console lines 0-0","runtime_seconds":0.139486292}],"total_operations":1}}
+{"time":"2025-04-02T13:58:20.672252-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/distributed/jx6bv8sv/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}
+{"time":"2025-04-02T13:58:30.899516-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/distributed/jx6bv8sv/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}
+{"time":"2025-04-02T13:58:43.180417-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/distributed/jx6bv8sv/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}
+{"time":"2025-04-02T13:58:57.404093-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/distributed/jx6bv8sv/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}
+{"time":"2025-04-02T13:59:13.074847-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-0, summary, console lines 0-0","runtime_seconds":60.230534583,"error_status":"retrying HTTP 503: The service is currently unavailable. Please try again later."}],"total_operations":1}}
+{"time":"2025-04-02T13:59:19.690902-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/distributed/jx6bv8sv/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}
+{"time":"2025-04-02T13:59:59.299491-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/distributed/jx6bv8sv/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}
+{"time":"2025-04-02T14:00:13.192924-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-0, summary, console lines 0-0","runtime_seconds":120.349419375,"error_status":"retrying HTTP 503: The service is currently unavailable. Please try again later."}],"total_operations":1}}
+{"time":"2025-04-02T14:00:25.211972-07:00","level":"INFO","msg":"stream: closing","id":"jx6bv8sv"}
+{"time":"2025-04-02T14:00:25.212157-07:00","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}

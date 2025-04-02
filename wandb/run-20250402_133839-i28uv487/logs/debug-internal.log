@@ -1,0 +1,14 @@
+{"time":"2025-04-02T13:38:39.60729-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/Users/noaschwartz_wandb/multi-node/wandb/run-20250402_133839-i28uv487/logs/debug-core.log"}
+{"time":"2025-04-02T13:38:39.903117-07:00","level":"INFO","msg":"created new stream","id":"i28uv487"}
+{"time":"2025-04-02T13:38:39.903159-07:00","level":"INFO","msg":"stream: started","id":"i28uv487"}
+{"time":"2025-04-02T13:38:39.903167-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"i28uv487"}
+{"time":"2025-04-02T13:38:39.903205-07:00","level":"INFO","msg":"sender: started","stream_id":"i28uv487"}
+{"time":"2025-04-02T13:38:39.90323-07:00","level":"INFO","msg":"handler: started","stream_id":"i28uv487"}
+{"time":"2025-04-02T13:38:40.033824-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-02T13:38:41.178385-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-02T13:38:41.621542-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-02T13:38:42.015675-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-02T13:38:42.192954-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-0, summary, console lines 0-0","runtime_seconds":0.176747208}],"total_operations":1}}
+{"time":"2025-04-02T13:38:46.048707-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/distributed/i28uv487/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}
+{"time":"2025-04-02T13:38:55.900111-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/distributed/i28uv487/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}
+{"time":"2025-04-02T13:39:06.653761-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/distributed/i28uv487/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}

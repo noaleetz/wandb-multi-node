@@ -1,0 +1,14 @@
+{"time":"2025-04-02T13:51:26.758658-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/Users/noaschwartz_wandb/multi-node/wandb/run-20250402_135126-oofotnmg/logs/debug-core.log"}
+{"time":"2025-04-02T13:51:26.969081-07:00","level":"INFO","msg":"created new stream","id":"oofotnmg"}
+{"time":"2025-04-02T13:51:26.969117-07:00","level":"INFO","msg":"stream: started","id":"oofotnmg"}
+{"time":"2025-04-02T13:51:26.969125-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"oofotnmg"}
+{"time":"2025-04-02T13:51:26.969157-07:00","level":"INFO","msg":"handler: started","stream_id":"oofotnmg"}
+{"time":"2025-04-02T13:51:26.969175-07:00","level":"INFO","msg":"sender: started","stream_id":"oofotnmg"}
+{"time":"2025-04-02T13:51:27.1224-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-02T13:51:28.244924-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-02T13:51:28.516972-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-02T13:51:28.899746-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-02T13:51:29.248181-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-0, summary, console lines 0-0","runtime_seconds":0.348316}],"total_operations":1}}
+{"time":"2025-04-02T13:51:33.54846-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/distributed/oofotnmg/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}
+{"time":"2025-04-02T13:51:41.958551-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/distributed/oofotnmg/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}
+{"time":"2025-04-02T13:51:52.020222-07:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/files/noa-schwartz-wandb/distributed/oofotnmg/file_stream","body":"{\"error\":\"The service is currently unavailable. Please try again later.\"}"}

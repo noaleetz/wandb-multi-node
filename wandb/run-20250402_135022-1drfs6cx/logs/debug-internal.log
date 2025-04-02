@@ -1,0 +1,8 @@
+{"time":"2025-04-02T13:50:22.556265-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/Users/noaschwartz_wandb/multi-node/wandb/run-20250402_135022-1drfs6cx/logs/debug-core.log"}
+{"time":"2025-04-02T13:50:22.768881-07:00","level":"INFO","msg":"created new stream","id":"1drfs6cx"}
+{"time":"2025-04-02T13:50:22.768912-07:00","level":"INFO","msg":"stream: started","id":"1drfs6cx"}
+{"time":"2025-04-02T13:50:22.768972-07:00","level":"INFO","msg":"sender: started","stream_id":"1drfs6cx"}
+{"time":"2025-04-02T13:50:22.768968-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"1drfs6cx"}
+{"time":"2025-04-02T13:50:22.769041-07:00","level":"INFO","msg":"handler: started","stream_id":"1drfs6cx"}
+{"time":"2025-04-02T13:50:52.771376-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-02T13:50:53.638399-07:00","level":"INFO","msg":"stream: closing","id":"1drfs6cx"}
